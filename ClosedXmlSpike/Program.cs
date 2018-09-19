@@ -6,7 +6,9 @@ namespace ClosedXmlSpike
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+            var obj = new TestingClosedXML();
+            obj.LoadFile();
         }
     }
 }
